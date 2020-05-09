@@ -1,0 +1,24 @@
+.contact {
+  margin-bottom: 200px;
+}
+
+.contact__text {
+  max-width: 50%;
+  margin-bottom: 2rem;
+}
+
+.contact__link {
+  color: inherit;
+  text-decoration: none;
+  background-color: lighten(#1d2225, 4%);
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 1rem;
+
+  svg {
+    margin-right: 1rem;
+    color: lighten(#1d2225, 40%);
+  }
+}

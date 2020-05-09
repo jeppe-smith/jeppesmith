@@ -1,0 +1,38 @@
+.skills__header {
+  margin-bottom: 3rem;
+}
+
+.skills {
+  margin-bottom: 200px;
+}
+
+.skill-lists {
+  display: flex;
+}
+
+.skill-list {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &--title {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  svg {
+    width: 1rem;
+    margin-right: 0.5rem;
+  }
+}

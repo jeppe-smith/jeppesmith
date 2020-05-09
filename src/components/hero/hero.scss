@@ -1,0 +1,47 @@
+.hero {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__text {
+  opacity: 0.5;
+
+  &--bottom {
+    margin-left: auto;
+  }
+}
+
+.hero__title {
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.hero__button {
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  align-self: center;
+  position: absolute;
+  top: 75%;
+
+  svg {
+    margin-left: 3rem;
+  }
+}
